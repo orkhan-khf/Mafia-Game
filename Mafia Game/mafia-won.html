@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title></title>
+          <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+
+        <!-- jQuery library -->
+        <script src="bootstrap/jquery.js"></script>
+
+        <!-- Latest compiled JavaScript -->
+        <script src="bootstrap/js/bootstrap.js"></script>
+        
+        <link rel="stylesheet" type="text/css" href="style.css">
+        
+        <meta charset="UTF-8">
+</head>
+<body>
+<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal" data-whatever="@getbootstrap">Klik</button>
+<!-- MAFIA POP-UP START-->
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel">
+
+  <div class="modal-dialog" role="document">
+    <div class="modal-content F-modal-content MAFIA_WON-main">
+     <h4 class="GAME_OVER-H4">Oyun bitdi!</h4>
+     <div class="Pop-up_BG POP_UP_MAFIA_WON"></div><h3 class="Mafia_div_h3 Mafia_Won_h3">Mafia qazandı!</h3>
+     <div class="ok-button-div col-lg-12"><button class="btn ok-button">Ok</button></div>
+    </div>
+  </div>
+</div>
+<!-- MAFIA POP-UP START-->
+<script type="text/javascript">
+  
+  $('#exampleModal').on('show.bs.modal', function (event) {
+  var button = $(event.relatedTarget) // Button that triggered the modal
+  var recipient = button.data('whatever') // Extract info from data-* attributes
+  // If necessary, you could initiate an AJAX request here (and then do the updating in a callback).
+  // Update the modal's content. We'll use jQuery here, but you could use a data binding library or other methods instead.
+  var modal = $(this)
+  modal.find('.modal-title').text('New message to ' + recipient)
+  modal.find('.modal-body input').val(recipient)
+})
+</script>
+</body>
+</html>

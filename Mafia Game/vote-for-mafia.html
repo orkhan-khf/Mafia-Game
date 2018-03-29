@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title></title>
+          <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+
+        <!-- jQuery library -->
+        <script src="bootstrap/jquery.js"></script>
+
+        <!-- Latest compiled JavaScript -->
+        <script src="bootstrap/js/bootstrap.js"></script>
+        
+        <link rel="stylesheet" type="text/css" href="style.css">
+        
+        <meta charset="UTF-8">
+</head>
+<body>
+
+<!-- DATABASEYƏ AD VƏ SOYADIN SİMVOLUNA LİMİT QOYUN Kİ MAFİANI SEÇEN POP UP AÇILANDA AD VE SOYAD YAZISI VOTE BUTONUNU AŞAĞI ATMASIN-->
+<!-- DATABASEYƏ AD VƏ SOYADIN SİMVOLUNA LİMİT QOYUN Kİ MAFİANI SEÇEN POP UP AÇILANDA AD VE SOYAD YAZISI VOTE BUTONUNU AŞAĞI ATMASIN-->
+<!-- DATABASEYƏ AD VƏ SOYADIN SİMVOLUNA LİMİT QOYUN Kİ MAFİANI SEÇEN POP UP AÇILANDA AD VE SOYAD YAZISI VOTE BUTONUNU AŞAĞI ATMASIN-->
+<!-- DATABASEYƏ AD VƏ SOYADIN SİMVOLUNA LİMİT QOYUN Kİ MAFİANI SEÇEN POP UP AÇILANDA AD VE SOYAD YAZISI VOTE BUTONUNU AŞAĞI ATMASIN-->
+<!-- DATABASEYƏ AD VƏ SOYADIN SİMVOLUNA LİMİT QOYUN Kİ MAFİANI SEÇEN POP UP AÇILANDA AD VE SOYAD YAZISI VOTE BUTONUNU AŞAĞI ATMASIN-->
+<!-- DATABASEYƏ AD VƏ SOYADIN SİMVOLUNA LİMİT QOYUN Kİ MAFİANI SEÇEN POP UP AÇILANDA AD VE SOYAD YAZISI VOTE BUTONUNU AŞAĞI ATMASIN-->
+
+<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal" data-whatever="@getbootstrap">Klik</button>
+<!-- MAFIA POP-UP START-->
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content F-modal-content Vote_For_Mafia-main">
+    <h3 class="Vote_For_Mafia_h3">Sizcə Mafia Kimdir?</h3>
+     <div class="Pop-up_BG Vote_For_Mafia">
+        <div class="Vote_For_Mafia_P-Boxes">
+         <div class="Vote_For_Mafia_PP member-image-size"></div>
+         <div><h5 class="Vote_For_Mafia_Name">Orxan Feredddd cFerecovov</h5></div>
+         <div><button class="btn  login-regist-buttons">Vote</button></div>
+        </div>
+
+         <div class="Vote_For_Mafia_P-Boxes">
+         <div class="Vote_For_Mafia_PP member-image-size"></div>
+         <div><h5 class="Vote_For_Mafia_Name">Orxan Ferecov</h5></div>
+         <div><button class="btn  login-regist-buttons">Vote</button></div>
+        </div>
+
+         <div class="Vote_For_Mafia_P-Boxes">
+         <div class="Vote_For_Mafia_PP member-image-size"></div>
+         <div><h5 class="Vote_For_Mafia_Name">Orxan Ferecov</h5></div>
+         <div><button class="btn  login-regist-buttons">Vote</button></div>
+        </div>
+
+         <div class="Vote_For_Mafia_P-Boxes">
+         <div class="Vote_For_Mafia_PP member-image-size"></div>
+         <div><h5 class="Vote_For_Mafia_Name">Orxan Ferecov</h5></div>
+         <div><button class="btn login-regist-buttons">Vote</button></div>
+        </div>
+
+         <div class="Vote_For_Mafia_P-Boxes">
+         <div class="Vote_For_Mafia_PP member-image-size"></div>
+         <div><h5 class="Vote_For_Mafia_Name">Orxan Ferecov</h5></div>
+         <div><button class="btn login-regist-buttons">Vote</button></div>
+        </div>
+
+         <div class="Vote_For_Mafia_P-Boxes">
+         <div class="Vote_For_Mafia_PP member-image-size"></div>
+         <div><h5 class="Vote_For_Mafia_Name">Orxan Ferecov</h5></div>
+         <div><button class="btn  login-regist-buttons">Vote</button></div>
+        </div>
+     </div>
+     
+  </div>
+</div>
+<!-- MAFIA POP-UP START-->
+<script type="text/javascript">
+  
+  $('#exampleModal').on('show.bs.modal', function (event) {
+  var button = $(event.relatedTarget) // Button that triggered the modal
+  var recipient = button.data('whatever') // Extract info from data-* attributes
+  // If necessary, you could initiate an AJAX request here (and then do the updating in a callback).
+  // Update the modal's content. We'll use jQuery here, but you could use a data binding library or other methods instead.
+  var modal = $(this)
+  modal.find('.modal-title').text('New message to ' + recipient)
+  modal.find('.modal-body input').val(recipient)
+})
+</script>
+</body>
+</html>

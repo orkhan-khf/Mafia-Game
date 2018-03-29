@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title></title>
+          <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+
+        <!-- jQuery library -->
+        <script src="bootstrap/jquery.js"></script>
+
+        <!-- Latest compiled JavaScript -->
+        <script src="bootstrap/js/bootstrap.js"></script>
+        
+        <link rel="stylesheet" type="text/css" href="style.css">
+        
+        <meta charset="UTF-8">
+</head>
+<body>
+<!-- MAFIA POP-UP START-->
+<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal">Popup image</button>
+
+<div id="myModal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content  Citizen_Night-main">
+        <div class="modal-body Citizen_Night">
+        	<h4 class="KILLED_BY_MAFIA-h4">Night Time</h4>
+            <img src="img/loading.gif" class="img-responsive Citizen_Night-loading-img">
+            <h3 class="Mafia_div_h3  Killed_By_Mafia-h3 Citizen_Night-loading-h3">Digər oyunçular seçim<br>edənə qədər zəhmət olmasa gözləyin!</h3>
+        </div>
+    </div>
+  </div>
+</div>
+<!-- MAFIA POP-UP START-->
+<script type="text/javascript">
+  
+  function centerModal() {
+    $(this).css('display', 'block');
+    var $dialog = $(this).find(".modal-dialog");
+    var offset = ($(window).height() - $dialog.height()) / 2;
+    // Center modal vertically in window
+    $dialog.css("margin-top", offset);
+}
+
+$('.modal').on('show.bs.modal', centerModal);
+$(window).on("resize", function () {
+    $('.modal:visible').each(centerModal);
+});
+</script>
+</body>
+</html>

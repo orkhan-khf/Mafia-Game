@@ -1,0 +1,1460 @@
+p,h6,h5,h4,h3,h2,h1,div,button,img{ 
+        -moz-user-select: none; 
+        -khtml-user-select: none; 
+        -webkit-user-select: none; 
+        -o-user-select: none; 
+}
+.hover-white:hover{
+	color: white !important;
+}
+/*LOGIN PAGE START*//*LOGIN PAGE START*//*LOGIN PAGE START*/
+	.main{
+		padding:0!important;
+		background: -moz-radial-gradient( lightgray, black); /* For Firefox 3.6 to 15 */
+    	background: radial-gradient( #222222, #0c0c0c); /* Standard syntax (must be last) */
+		
+	}
+	.daytime-body{
+	background: -moz-radial-gradient( lightgray, black); /* For Firefox 3.6 to 15 */
+    background: radial-gradient( #222222, #0c0c0c); /* Standard syntax (must be last) */
+    overflow-x:hidden;
+	}
+	.header{
+		height: 100px;
+		padding-right: 25px;
+		padding-top: 15px;
+		padding-left: 15px;
+	}
+	.icons{
+		float: right;
+	}
+/*SOSIAL ICONS*/
+	.icon_size{
+		width: 65px;
+		height: 65px;
+	}
+	.large_icon_size{
+		width: 43px;
+		height: 43px;
+	}
+	.question_and_password_icon_div{
+		display: inline-block;
+		margin-top: 7px;
+	    margin-left: 13px;
+	}
+	.question_icon{
+		background-image: url("img/question.png");
+		background-size: cover;
+		display: inline-block;
+		margin-right:23px; 
+	}
+	.password-forget{
+		background-image: url("img/password-forget.png");
+		background-size: cover;
+		display: inline-block;
+	}
+	.gplus_icon{
+		background-image: url("img/gmail.png");
+		background-size: cover;
+		display: inline-block;
+	}
+	.twitter_icon{
+		background-image: url("img/twitter.png");
+		background-size: cover;
+		display: inline-block;
+	}
+	.facebook_icon{
+		background-image: url("img/facebook.png");
+		background-size: cover;
+		display: inline-block;
+	}
+	.mail_icon{
+		background-image: url("img/mail.png");
+		background-size: cover;
+		display: inline-block;
+	}
+/*SOSIAL ICONS*/
+
+/*CENTER LOGO START */
+	.center_logo{
+		background: black;
+		height: 250px;
+		text-align: center;
+		vertical-align: middle;
+	}
+	.F-logo{
+		position: relative;
+    	top: 23px;
+		width: 210px;
+		height: 210px;
+		display: inline-block;
+		background-image: url("img/mafia-icon.png");
+		background-size: cover;
+	}
+	.F-Mafia_Club{
+		display: inline-block;
+	}
+	.F-Mafia_Club h1{
+		font-size: 73pt;
+		font-family: Impact;
+		color: #ED1F24;
+		margin: 0px;
+		max-height: 85px;
+	}
+	.F-Mafia_Club h1:nth-child(2){
+		margin-right:40px;
+	}
+	@media(min-width: 768px){
+		.center_logo{
+		height: 320px;
+		vertical-align: middle !important;
+		}
+	}
+/*CENTER LOGO FINISH */
+
+/* LOGIN PANEL AND HELP BUTTON START */
+	.F-Login-Panel{
+		margin-top:70px;
+	}
+	.login-regist-buttons{
+		border-radius: 5px;
+		border-bottom: 0px;
+		background: gray; /* For browsers that do not support gradients */
+    	background: -webkit-linear-gradient(gray, black); /* For Safari 5.1 to 6.0 */
+    	background: -o-linear-gradient(gray, black); /* For Opera 11.1 to 12.0 */
+    	background: -moz-linear-gradient(gray, black); /* For Firefox 3.6 to 15 */
+    	background: linear-gradient(gray, black); /* Standard syntax (must be last) */
+    	color: #d9d9d9;
+    	height: 35px;
+    	margin-bottom: 15px;
+	}
+	.login-regist-buttons:hover{
+		color: white;
+	}
+	.login-regist-input{
+		background-color: #151515;
+		color: white;
+		height: 30px;
+	}
+	.login-regist-buttons a{
+		color: #d9d9d9;
+		text-decoration: none;
+	}
+	.checkbox-remember-me{
+		display: inline-block;
+		background:red;
+	}
+	.yadda-saxla-span{
+		display: inline-block;
+		color: gray;
+		font-size: 15px;
+	}
+/* LOGIN PANEL AND HELP BUTTON FINISH */
+@media (max-width: 480px){
+	.header{
+		height: 85px;
+		padding-left: 10px;
+	}
+	.question_and_password_icon_div{
+		margin-top: 8px;
+	}
+	.icon_size{
+		width: 45px;
+		height: 47px;
+	}
+	.large_icon_size{
+		width: 28px;
+		height: 28px;
+	}
+	.question_icon{
+		margin-right: 10px;
+	}
+	.F-logo{
+		top:40px;
+		width: 170px;
+		height: 170px;
+		display: inline-block;
+		margin:20px auto;
+	}
+	.F-Mafia_Club h1{
+		font-size: 50pt;
+		font-family: Impact;
+		color: #ED1F24;
+	}
+	.F-Mafia_Club h1:nth-child(2){
+		margin-right:20px;
+	}
+	.center_logo{
+		height: 260px;
+	}
+}
+@media(max-width: 360px){
+	.center_logo{
+		height: 360px;
+	}
+	.F-Mafia_Club h1:nth-child(2){
+		margin-right:0px;
+	}
+}
+@media (min-width: 768px) {
+	
+}
+@media (min-width: 992px) {
+	.F-logo{
+		left: 36px;
+	}
+	.F-Mafia_Club h1{
+		margin-left: 20px;
+	}
+	.F-Mafia_Club h1:nth-child(2){
+		margin-right:39px;
+	}
+}
+@media (min-width: 1200px) {
+	.F-logo{
+		left: 0px;
+	}
+	.F-Mafia_Club h1{
+		margin-right: 30px;
+	}
+	.F-Mafia_Club h1:nth-child(2){
+		margin-left: 0px;
+	}
+	.login-regist-input{
+		height: 36px;
+	}
+}
+
+/*LOGIN PAGE FINISH*//*LOGIN PAGE FINISH*//*LOGIN PAGE FINISH*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*REGISTRATION PAGE START*//*REGISTRATION PAGE START*//*REGISTRATION PAGE START*/
+
+		/*LOGIN SEHIFESININ INPUT ve BUTTON CLASSLARINDAN ISTIFADE OLUNUB*/
+
+/*REGISTRATION PAGE FINISH*//*REGISTRATION PAGE FINISH*//*REGISTRATION PAGE FINISH*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*DAYTIME PAGE START*//*DAYTIME PAGE START*//*DAYTIME PAGE START*/
+.Daytime-main-div{
+	margin: 0px !important;
+	padding: 0px !important;
+}
+/*HEADER START*//*HEADER START*//*HEADER START*/
+
+.Daytime-header{
+	background-color: black;
+	height: 60px;
+}
+.Daytime-header h3{
+	display: inline-block;
+	font-family: Impact;
+	color: #ED1F24;
+	font-weight: bold;
+	margin-top:15px;
+	margin-left: 15px;
+}
+.Daytime-header p{
+	display: inline-block;
+	color: white;
+	margin-top:17px;
+}
+.Daytime-header button{
+	margin-top: 10px;
+	float: right;
+	margin-right: 15px;
+}
+@media (max-width: 768px) {
+  .Daytime-header{
+  	height: 146px;
+  }
+  .Daytime-header p{
+	display: inline-block;
+	color: white;
+}
+.Daytime-header h3{
+	margin-top:0px;
+	margin-left: 0px;
+}
+.Daytime-header button{
+	margin: 0px;
+}
+.h3-Mafia-Game{
+	text-align: center;
+}
+.test{
+	display: flex;
+	justify-content:center;
+}
+}
+/*HEADER FINISH*//*HEADER FINISH*//*HEADER FINISH*/
+
+/*CHAT CONTENT START*//*CHAT CONTENT START*//*CHAT CONTENT START*/
+.Chat-window{
+	min-height: 500px;
+	background-color: #595959;
+	padding-right: 2px !important;
+	padding-left: 2px !important;
+}
+.Chat-window p{
+	color: white;
+	display: inline-block;
+	margin: 0px;
+}
+.F-message-from{
+	color:red !important;
+	font-weight: bold;
+}
+.chat-font{
+	font-style: italic;
+}
+.chat-messaging-div{
+	padding-right: 0px !important;
+	padding-left: 0px !important;
+}
+.message-input{
+	min-height: 50px;
+	display: block;
+}
+.send-message-btn{
+	display: block;
+	min-height: 50px;
+	border-radius: 0px;
+	border:1px solid gray;
+}
+/*MEMBERS START*//*MEMBERS START*//*MEMBERS START*//*MEMBERS START*/
+.members-window {
+	height: 500px;
+	border-right: 1px solid lightgray;
+	display: block;
+}
+.F-member{
+	height: 83.3px;
+	border-bottom:1px solid lightgray;
+	color: white;
+}
+.F-member h4{
+	display: inline-block;
+	position: relative;
+	bottom: 35px;
+	font-size: 15px;
+	padding-right: 1px !important;
+
+}
+.member-image-size{
+	width: 80px !important;
+	height: 80px !important;
+	display: inline-block;
+}
+.member-one{
+	background-image: url(Profile-Images/avatar.png);
+	background-size: cover;
+}
+.member-two{
+	background-image: url(Profile-Images/avatar.png);
+	background-size: cover;
+}
+.member-three{
+	background-image: url(Profile-Images/avatar.png);
+	background-size: cover;
+}
+.member-four{
+	background-image: url(Profile-Images/avatar.png);
+	background-size: cover;
+}
+.member-five{
+	background-image: url(Profile-Images/avatar.png);
+	background-size: cover;
+}
+.member-six{
+	background-image: url(Profile-Images/avatar.png);
+	background-size: cover;
+}
+.vote-btn{
+	float: right;
+	top: 20px;
+	margin-right: 15px;
+}
+
+
+@media(max-width: 400px){
+	.chat-messaging-div{
+	padding-bottom: 30px;
+	padding-right: 0px !important;
+	padding-left: 0px !important;
+	}
+	.member-image-size{
+		width: 60px !important;
+		height: 60px !important;
+		display: inline-block;
+	}
+	.F-member h4{
+	bottom: 25px !important;
+}
+}
+	.vote-btn{
+		float: right;
+		top: 20px;
+	}
+@media(min-width: 1200px){
+	.members-window {
+		height: 550px;
+		border-right: 1px solid lightgray;
+		display: block;
+	}
+	.F-member{
+		height: 91.7px;
+		border-bottom:1px solid lightgray;
+		color: white;
+	}
+
+	}
+/*MEMBERS FINISH*//*MEMBERS FINISH*//*MEMBERS FINISH*//*MEMBERS FINISH*/
+@media (max-width: 768px){
+	.Chat-window{
+	height: 300px;
+}
+.chat-messaging-div{
+	padding-bottom: 30px;
+}
+}
+.music-player{
+	display: block;
+	position: fixed !important;
+	bottom: 10px;
+}
+/*CHAT CONTENT FINISH*//*CHAT CONTENT FINISH*//*CHAT CONTENT FINISH*/
+
+
+
+
+
+
+
+
+
+
+
+/*POP UP CARD START*//*POP UP CARD START*//*POP UP CARD START*/
+.Mafia_div_h3{
+	display: inline-block;
+	/*color: #ED1F24;*/
+	color: white;
+	font-size: 35px;
+}
+.F-modal-content{
+	background-image: url(img/popbg.png);
+	background-size: cover;
+	width: 100%;
+	height: 500px;
+	margin: 80px auto;
+	text-align: center;
+}
+/*POP UP MAFIA START*//*POP UP MAFIA START*//*POP UP MAFIA START*/
+.POP_UP_MAFIA{
+	background-image: url(img/mafia.png);
+}
+/*POP UP MAFIA FINISH*//*POP UP MAFIA FINISH*//*POP UP MAFIA FINISH*/
+
+/*POP UP POLICE START*//*POP UP POLICE START*//*POP UP POLICE START*/
+.POP_UP_POLICE{
+	background-image: url(img/police.png);
+}
+/*POP UP POLICE FINISH*//*POP UP POLICE FINISH*//*POP UP POLICE FINISH*/
+
+/*POP UP CITIZEN START*//*POP UP CITIZEN START*//*POP UP CITIZEN START*/
+.POP_UP_CITIZEN{
+	background-image: url(img/citizen.png);
+}
+/*POP UP CITIZEN FINISH*//*POP UP CITIZEN FINISH*//*POP UP CITIZEN FINISH*/
+.Pop-up_BG{
+	background-size: cover;
+	width: 60%;
+	height: 350px;
+	margin: 0 auto;
+}
+.ok-button-div{
+	height: 79px;
+    border-bottom-left-radius: 7px;
+    border-bottom-right-radius: 7px;
+	border-top: 1px solid gray;
+	padding-top: 20px;
+	background-color: black;
+}
+.ok-button{
+	height: 40px;
+	color: red;
+	font-weight: bolder;
+	border-radius: 8px;
+	background: gray; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(gray, black); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(gray, black); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(gray, black); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(gray, black); /* Standard syntax (must be last) */
+}
+.ok-button:hover{
+	color:#C9182A;
+}
+@media(max-width: 1200px){
+	.Mafia_div_h3{
+	font-size: 33px;
+}
+.F-modal-content{
+	width: 75%;
+	height: 400px;
+}
+.Pop-up_BG{
+	width: 64%;
+	height: 280px;
+}
+.ok-button-div{
+	height: 73px;
+	padding-top: 18px;
+	background-color: black;
+}
+.ok-button{
+	height: 35px;
+}
+}
+@media(max-width: 992px){
+	.Mafia_div_h3{
+	font-size: 31px;
+}
+.F-modal-content{
+	width: 70%;
+	height: 300px;
+}
+.Pop-up_BG{
+	width: 56%;
+	height: 230px;
+}
+.ok-button-div{
+	height: 79px;
+	padding-top: 20px;
+	background-color: black;
+}
+.ok-button{
+	height: 35px;
+}
+}
+@media(max-width: 768px){
+	.Mafia_div_h3{
+	font-size: 25px;
+}
+.F-modal-content{
+	width: 70%;
+	height: 300px;
+}
+.Pop-up_BG{
+	width: 50%;
+	height: 220px;
+}
+.ok-button-div{
+	height: 70px;
+	padding-top: 16px;
+	background-color: black;
+}
+.ok-button{
+	height: 37px;
+}
+}
+@media(max-width: 630px){
+	.Mafia_div_h3{
+	font-size: 22px;
+}
+.F-modal-content{
+	width: 55%;
+	height: 270px;
+}
+.Pop-up_BG{
+	width: 50%;
+	height: 174px;
+}
+.ok-button-div{
+	height: 52px;
+	padding-top: 8px;
+	background-color: black;
+}
+.ok-button{
+	height: 32px;
+}
+}
+@media(max-width: 545px){
+	.Mafia_div_h3{
+	font-size: 19px;
+}
+.F-modal-content{
+	width: 50%;
+	height: 266px;
+}
+.Pop-up_BG{
+	width: 71%;
+	height: 163px;
+}
+.ok-button-div{
+	height: 52px;
+	padding-top: 8px;
+	background-color: black;
+}
+}
+@media(max-width: 478px){
+	.Mafia_div_h3{
+	font-size: 14px;
+}
+.F-modal-content{
+	width: 50%;
+	height: 255px;
+}
+.Pop-up_BG{
+	width: 85%;
+	height: 177px;
+}
+.ok-button-div{
+	height: 52px;
+	padding-top: 8px;
+	background-color: black;
+}
+}
+@media(max-width: 458px){
+	.Mafia_div_h3{
+	font-size: 14px;
+}
+.F-modal-content{
+	width: 50%;
+	height: 231px;
+}
+.Pop-up_BG{
+	width: 80%;
+	height: 155px;
+}
+.ok-button-div{
+	height: 52px;
+	padding-top: 8px;
+	background-color: black;
+}
+}
+@media(max-width: 362px){
+	.Mafia_div_h3{
+	font-size: 14px;
+}
+.F-modal-content{
+	width: 50%;
+	height: 226px;
+}
+.Pop-up_BG{
+	width: 84%;
+	height: 127px;
+}
+.ok-button-div{
+	height: 52px;
+	padding-top: 8px;
+	background-color: black;
+}
+}
+
+
+
+
+/*VOTE FOR MAFIA START*//*VOTE FOR MAFIA START*//*VOTE FOR MAFIA START*/
+.Vote_For_Mafia-main{
+	height: 465px;
+}
+.Vote_For_Mafia{
+	width: 100%;
+	display: flex;
+    -webkit-flex-flow: row wrap;
+    justify-content: space-around;
+}
+.Vote_For_Mafia_h3{
+	display: inline-block;
+	/*color: #ED1F24;*/
+	color: white;
+	font-size: 31px;
+}
+.Vote_For_Mafia_P-Boxes{
+	width: 27%;
+    height: auto;
+    margin: 9px;
+    text-align: center;
+    border-radius: 5px;
+    border: 1px solid gray;
+}
+.Vote_For_Mafia_PP{
+	background-image: url(Profile-Images/avatar.png);
+	background-size: cover;
+	width: 110px !important;
+	height: 110px !important;
+}
+.Vote_For_Mafia_Name{
+	margin-top:0px;
+	margin-bottom:10px;
+	color: white;
+	font-weight: bold;
+	margin-bottom: 5px;
+}
+.Vote_For_Mafia_P-Boxes button:visited{
+	color:red !important;
+}
+.Vote_For_Mafia_P-Boxes button{
+	height: 30px;
+    margin-bottom: 5px;
+    padding-top: 4px;
+    color: red;
+}
+
+
+@media(max-width: 1200px){
+	.Vote_For_Mafia-main{
+	height: 421px;
+}
+.Vote_For_Mafia_P-Boxes{
+	width: 29.3%;
+}
+.Vote_For_Mafia_PP{
+	width: 95px !important;
+	height: 95px !important;
+}
+.Vote_For_Mafia_P-Boxes button{
+	height: 25px;
+    margin-bottom: 4px;
+    padding-top: 1px;
+}
+.Vote_For_Mafia_h3{
+	display: inline-block;
+	/*color: #ED1F24;*/
+	color: white;
+	font-size: 28px;
+}
+}
+@media(max-width: 992px){
+	.Vote_For_Mafia-main{
+	height: 421px;
+	width: 80%;
+}
+.Vote_For_Mafia_P-Boxes{
+	width: 29.3%;
+}
+.Vote_For_Mafia_PP{
+	width: 95px !important;
+	height: 95px !important;
+}
+.Vote_For_Mafia_P-Boxes button{
+	height: 25px;
+    margin-bottom: 4px;
+    padding-top: 1px;
+}
+.Vote_For_Mafia_h3{
+	display: inline-block;
+	/*color: #ED1F24;*/
+	color: white;
+	font-size: 28px;
+}
+}
+@media(max-width: 768px){
+	.Vote_For_Mafia-main{
+	height: 421px;
+}
+.Vote_For_Mafia_P-Boxes{
+	width: 27%;
+}
+.Vote_For_Mafia_PP{
+	width: 85px !important;
+	height: 85px !important;
+}
+.Vote_For_Mafia_P-Boxes button{
+	height: 24px;
+    margin-bottom: 4px;
+    padding-top: 0px;
+}
+.Vote_For_Mafia_h3{
+	font-size: 23px;
+}
+.Vote_For_Mafia_Name{
+	padding-right: 2px;
+	padding-left: 2px;
+}
+}
+@media(max-width: 610px){
+	.Vote_For_Mafia-main{
+	height: 443px;
+	padding-left: 1px;
+	padding-right: 1px;
+}
+.Vote_For_Mafia_P-Boxes{
+	width: 40%;
+	margin: 2px;
+}
+.Vote_For_Mafia_PP{
+	width: 65px !important;
+	height: 65px !important;
+}
+.Vote_For_Mafia_P-Boxes button{
+	height: 24px;
+    margin-bottom: 4px;
+    padding-top: 0px;
+}
+.Vote_For_Mafia_h3{
+	font-size: 20px;
+	margin-top: 5px;
+}
+.Vote_For_Mafia_Name{
+	padding-right: 2px;
+	padding-left: 2px;
+}
+}
+@media(max-width: 410px){
+	.Vote_For_Mafia-main{
+	height: 350px !important;
+	padding-left: 1px;
+	padding-right: 1px;
+}
+.Vote_For_Mafia_P-Boxes{
+	width: 47%;
+	margin: 2px;
+}
+.Vote_For_Mafia_PP{
+	width: 48px !important;
+	height: 48px !important;
+}
+.Vote_For_Mafia_P-Boxes button{
+	height: 24px;
+    margin-bottom: 0px;
+    padding-top: 0px;
+    font-size: 13px;
+}
+.Vote_For_Mafia_h3{
+	font-size: 17px;
+	margin-top: 5px;
+}
+.Vote_For_Mafia_Name{
+	padding-right: 2px;
+	padding-left: 2px;
+    margin: 0px;
+	font-size: 12px;
+}
+}
+@media(max-width: 425px){
+	.Vote_For_Mafia-main{
+	height: 457px;
+}
+}
+/*VOTE FOR MAFIA FINISH*//*VOTE FOR MAFIA FINISH*//*VOTE FOR MAFIA FINISH*/
+
+
+
+
+
+
+
+
+/*VOTE FOR KILL AND MAFIA CHAT START*//*VOTE FOR KILL AND MAFIA CHAT START*/
+.Vote_For_Mafia_Pop-Up-Main{
+	text-align: center;
+}
+.Vote_For_Kill_main{
+	margin-bottom: 0px;
+	border-bottom-right-radius: 0px;
+	border-bottom-left-radius: 0px;
+}
+.mafia-chat{
+	border-bottom-left-radius: 6px;
+	border-bottom-right-radius: 6px;
+	background-color: black;
+	text-align: center;
+	width: 100%;
+	padding: 4px;
+	display: inline-block;
+}
+.mafia-chat h4{
+	margin: 0px;
+	color: red;
+}
+.mafia-chat-textarea{
+	resize: none;
+}
+.mafia-chat-window{
+	height: 95px;
+	margin-bottom: 6px;
+	background-color: lightgray;
+	word-wrap: break-word;
+	padding-left: 2px !important;
+	padding-right: 2px !important;
+	overflow-y: scroll;
+}
+
+.Mafia_Chat_send-btn{
+	margin-left: 5px;
+    padding-left: 21px;
+    padding-right: 22px;
+	display: inline-block;
+    min-height: 46px !important;
+}
+@media(max-width: 1200px){
+	.mafia-chat{
+		width:75%;
+	}
+	.Mafia_Chat_send-btn{
+	margin-left: 5px;
+    padding-left: 9px;
+    padding-right: 9px;
+	display: inline-block;
+    min-height: 46px !important;
+}
+}
+@media(max-width: 992px){
+	.mafia-chat{
+		width:80%;
+	}
+	.Mafia_Chat_send-btn{
+	margin-left: 5px;
+    padding-left: 12px;
+    padding-right: 11px;
+	display: inline-block;
+    min-height: 46px !important;
+}
+}
+@media(max-width:768px){
+	.Mafia_Chat_send-btn{
+    margin-top: 6px;
+    margin-bottom: 4px;
+	}
+}
+@media(max-width: 480px){
+	.mafia-chat-window{
+	height: 140px;
+}
+}
+
+/*VOTE FOR KILL AND MAFIA CHAT FINISH*//*VOTE FOR KILL AND MAFIA CHAT FINISH*/
+
+
+
+
+
+/*YOU ARE KILED BY MAFIA POP-UP START *//*YOU ARE KILED BY MAFIA POP-UP START */
+.POP_UP-KILLED_BY_MAFIA{
+	background-image: url(img/youarekilled.png);
+}
+.KILLED_BY_MAFIA-h4{
+	color: white;
+}
+.Killed_By_Mafia-h3{
+	margin:0px;
+	font-size: 32px;
+	color: #F00;
+}
+@media(max-width: 1200px){
+	.Killed_By_Mafia-h3{
+	font-size: 29px;
+}
+}
+@media(max-width: 992px){
+	.Killed_By_Mafia-h3{
+	font-size: 25px;
+}
+.POP_UP-KILLED_BY_MAFIA {
+    width: 53%;
+    height: 198px;
+}
+}
+@media(max-width: 768px){
+	.Killed_By_Mafia-h3{
+	font-size: 27px;
+	margin: 14px;
+}
+.POP_UP-KILLED_BY_MAFIA {
+    width: 53%;
+    height: 61%;
+}
+.POP_UP-KILLED_BY_MAFIA-main{
+	height: 390px;
+}
+}
+@media(max-width: 634px){
+	.Killed_By_Mafia-h3{
+	font-size: 25px;
+	margin: 14px;
+}
+.POP_UP-KILLED_BY_MAFIA {
+    width: 60%;
+    height: 65%;
+}
+.POP_UP-KILLED_BY_MAFIA-main{
+	height: 390px;
+	width: 80%;
+}
+}
+@media(max-width: 535px){
+	.Killed_By_Mafia-h3{
+	font-size: 25px;
+	margin: 14px;
+}
+.POP_UP-KILLED_BY_MAFIA {
+    height: 60%;
+}
+}
+@media(max-width: 492px){
+.POP_UP-KILLED_BY_MAFIA {
+    width: 63%;
+    height: 56%;
+}
+.POP_UP-KILLED_BY_MAFIA-main{
+	height: 390px;
+	width: 80%;
+}
+}
+@media(max-width: 441px){
+	.Killed_By_Mafia-h3{
+	font-size: 21px;
+	margin: 14px;
+}
+.POP_UP-KILLED_BY_MAFIA {
+    width: 77%;
+    height: 58%;
+}
+}
+@media(max-width: 378px){
+.POP_UP-KILLED_BY_MAFIA {
+    width: 100%;
+    height: 64%;
+}
+}
+@media(max-width: 347px){
+.POP_UP-KILLED_BY_MAFIA {
+    width: 105%;
+    height: 58%;
+}
+.POP_UP-KILLED_BY_MAFIA-main{
+	height: 390px;
+	width: 80%;
+}
+}
+/*YOU ARE KILED BY MAFIA POP-UP FINISH *//*YOU ARE KILED BY MAFIA POP-UP FINISH */
+
+
+
+
+
+
+
+
+
+/*YOU'RE KICKED OUT FROM GAME BECAUSE YOU HAVEN'T VOTED START!*//*YOU'RE KICKED OUT FROM GAME BECAUSE YOU HAVEN'T VOTED START!*/
+
+/*YOU ARE KILED BY MAFIA POP-UP FAYLI UZERINDE DEYISIKLIKLER OLUNUB*/
+/*YOU ARE KILED BY MAFIA POP-UP FAYLI UZERINDE DEYISIKLIKLER OLUNUB*/
+
+
+/*YOU'RE KICKED OUT FROM GAME BECAUSE YOU HAVEN'T VOTED FINISH!*//*YOU'RE KICKED OUT FROM GAME BECAUSE YOU HAVEN'T VOTED FINISH!*/
+
+
+
+
+
+
+
+
+
+
+
+/*MAFIA WON START*//*MAFIA WON START*//*MAFIA WON START*//*MAFIA WON START*//*MAFIA WON START*//*MAFIA WON START*/
+
+.GAME_OVER-H4{
+	color: white;
+	font-size: 15px;
+	margin-bottom: 0px;
+	font-weight: bold;
+}
+.Mafia_Won_h3{
+	color: #ED1F24;
+}
+.POP_UP_MAFIA_WON{
+	background-image: url(img/mafiawon.png);
+    margin-right: 7%;
+    width: 87%;
+}
+.POP_UP_MAFIA_WON {
+    width: 100%;
+    height: 80%;
+    margin:0px auto;
+}
+@media(max-width: 1200px){
+	.POP_UP_MAFIA_WON {
+    width: 100%;
+    height: 71%;
+    margin:0px auto;
+}
+}
+@media(max-width: 992px){
+	.Mafia_Won_h3{
+	font-size: 26px;
+}
+.POP_UP_MAFIA_WON {
+    width: 75%;
+    height: 71%;
+    margin: 0px auto;
+}
+}
+@media(max-width: 767px){
+	.MAFIA_WON-main{
+		height: 388px;
+	}
+	.POP_UP_MAFIA_WON {
+    width: 85%;
+    height: 71%;
+    margin: 0px auto;
+}
+}
+@media(max-width: 663px){
+	.POP_UP_MAFIA_WON {
+	margin-right: 10%;
+}
+}
+@media(max-width: 633px){
+	.MAFIA_WON-main{
+		width: 72%;
+	}
+}
+@media(max-width: 633px){
+	.MAFIA_WON-main{
+		width: 72%;
+	}
+	.POP_UP_MAFIA_WON{
+		width: 100%;
+	}
+}
+@media(max-width: 566px){
+	.POP_UP_MAFIA_WON{
+		width: 100%;
+		height: 64%;
+	}
+}
+@media(max-width: 514px){
+	.MAFIA_WON-main {
+    width: 71%;
+    height: 263px;
+}
+	.POP_UP_MAFIA_WON{
+		width: 73%;
+		height: 64%;
+	    margin-right: 13%;
+	}
+}
+@media(max-width: 471px){
+	.POP_UP_MAFIA_WON{
+	    margin-right: 17%;
+	}
+}
+@media(max-width: 435px){
+	.POP_UP_MAFIA_WON{
+	    margin-right: 19%;
+	}
+}
+@media(max-width: 420px){
+	.POP_UP_MAFIA_WON{
+	    margin-right: 20%;
+	}
+}
+@media(max-width: 390px){
+	.POP_UP_MAFIA_WON{
+	    margin-right: 25%;
+	}
+}
+@media(max-width: 388px){
+	.Mafia_Won_h3 {
+    font-size: 23px;
+}
+	.POP_UP_MAFIA_WON {
+    margin-right: 24%;
+}
+}
+@media(max-width: 380px){
+	.POP_UP_MAFIA_WON {
+    margin-right: 24%;
+}
+	.POP_UP_MAFIA_WON {
+    width: 100%;
+}
+}
+@media(max-width: 348px){
+	.POP_UP_MAFIA_WON {
+    margin-left: -4%;
+}
+}
+@media(max-width: 322px){
+	.POP_UP_MAFIA_WON {
+    margin-left: -8%;
+}
+}
+
+/*MAFIA WON FINISH*//*MAFIA WON FINISH*//*MAFIA WON FINISH*//*MAFIA WON FINISH*//*MAFIA WON FINISH*//*MAFIA WON FINISH*/
+
+
+
+
+
+
+/*CITIZEN WON START*//*CITIZEN WON START*//*CITIZEN WON START*//*CITIZEN WON START*//*CITIZEN WON START*//*CITIZEN WON START*/
+.POP_UP_CITIZEN_WON{
+	background-image: url(img/citizenwon.png);
+    margin-right: 10%;
+    width: 87%;
+}
+.Citizen_Won_h3{
+	color: #ED1F24;
+}
+@media(max-width: 1200px){
+	.POP_UP_CITIZEN_WON {
+	margin-right: 8%;
+}
+}
+@media(max-width: 992px){
+	.Citizen_Won_h3{
+	font-size: 26px;
+}
+	.POP_UP_CITIZEN_WON {
+    width: 75%;
+    height: 71%;
+    margin: 0px auto;
+}
+.POP_UP_CITIZEN_WON{
+	background-image: url(img/citizenwon.png);
+	margin-right: 10%;
+    width: 80%;
+}
+}
+@media(max-width: 743px){
+.POP_UP_CITIZEN_WON{
+	margin-right: 7%;
+    width: 85%;
+}
+}
+@media(max-width: 650px){
+.POP_UP_CITIZEN_WON{
+	margin-right: 7%;
+    width: 100%;
+}
+.CITIZEN_WON-H4{
+	display: inline-block;
+}
+}
+@media(max-width: 563px){
+.CITIZEN_WON-main{
+	width: 81%;
+	height: 388px;
+}
+.POP_UP_CITIZEN_WON{
+	margin-right: 7%;
+    width: 100%;
+}
+.CITIZEN_WON-H4{
+	display: inline-block;
+}
+}
+@media(max-width: 509px){
+.CITIZEN_WON-main{
+	width: 81%;
+	height: 383px;
+}
+.POP_UP_CITIZEN_WON {
+    margin-right: 7%;
+    width: 100%;
+    height: 65%;
+}
+.CITIZEN_WON-H4{
+	display: inline-block;
+}
+}
+@media(max-width: 469px){
+.CITIZEN_WON-main {
+    width: 81%;
+    height: 338px;
+}
+.POP_UP_CITIZEN_WON {
+    margin-right: 7%;
+    width: 100%;
+    height: 67%;
+}
+}
+@media(max-width: 419px){
+.CITIZEN_WON-main {
+    width: 81%;
+    height: 335px;
+}
+.POP_UP_CITIZEN_WON {
+    margin-right: 7%;
+    width: 100%;
+    height: 60%;
+}
+}
+@media(max-width: 375px){
+.CITIZEN_WON-main {
+    width: 92%;
+    height: 346px;
+}
+.POP_UP_CITIZEN_WON {
+    margin-right: 7%;
+    width: 100%;
+    height: 60%;
+}
+}
+@media(max-width: 327px){
+.CITIZEN_WON-main {
+    width: 92%;
+    height: 300px;
+}
+.POP_UP_CITIZEN_WON {
+    margin-right: 7%;
+    width: 100%;
+    height: 60%;
+}
+}
+/*CITIZEN WON FINISH*//*CITIZEN WON FINISH*//*CITIZEN WON FINISH*//*CITIZEN WON FINISH*//*CITIZEN WON FINISH*//*CITIZEN WON FINISH*/
+
+
+
+
+
+
+
+
+
+
+/*CITIZEN NIGHT START*//*CITIZEN NIGHT START*//*CITIZEN NIGHT START*//*CITIZEN NIGHT START*/
+
+.Citizen_Night-main{
+	background-image: url(img/popbg.png);
+	background-size: cover;
+}
+.Citizen_Night{
+	text-align: center;
+	padding: 0px !important;
+}
+.Citizen_Night-loading-img{
+	margin:-20px auto;
+}
+.Citizen_Night-loading-h3{
+	padding-bottom: 40px;
+}
+/*CITIZEN NIGHT FINISH*//*CITIZEN NIGHT FINISH*//*CITIZEN NIGHT FINISH*//*CITIZEN NIGHT FINISH*/
+
+
+
+
+
+
+
+/*LOADİNG POP-UP START*//*LOADİNG POP-UP START*//*LOADİNG POP-UP START*//*LOADİNG POP-UP START*/
+/*BOOTSTRAPLA KIFAYET ETDI*/
+/*BOOTSTRAPLA KIFAYET ETDI*/
+/*BOOTSTRAPLA KIFAYET ETDI*/
+/*BOOTSTRAPLA KIFAYET ETDI*/
+/*LOADİNG POP-UP FINISH*//*LOADİNG POP-UP FINISH*//*LOADİNG POP-UP FINISH*//*LOADİNG POP-UP FINISH*/
+
+
+
+
+
+
+
+
+/*WHO ARE MAFIA START*//*WHO ARE MAFIA START*//*WHO ARE MAFIA START*//*WHO ARE MAFIA START*//*WHO ARE MAFIA START*/
+.Who_Was_Mafia-main{
+	min-height: 400px;
+}
+.Who_Was_Mafia-img{
+	margin-top: 13%;
+}
+.Who_Was_Mafia-h3{
+	padding-bottom: 20px;
+	margin-top: 13%;
+}
+@media(max-width: 700px){
+.Who_Was_Mafia-main{
+	min-height: 400px;
+}
+.Who_Was_Mafia-img{
+	margin-top: 25%;
+}
+.Who_Was_Mafia-h3{
+	padding-bottom: 20px;
+	margin-top: 25%;
+}
+}
+/*WHO ARE MAFIA FINISH*//*WHO ARE MAFIA FINISH*//*WHO ARE MAFIA FINISH*//*WHO ARE MAFIA FINISH*//*WHO ARE MAFIA FINISH*/
+
+
+
+
+
+
+
+
+/*WHO ARE CITIZEN START*//*WHO ARE CITIZEN START*//*WHO ARE CITIZEN START*//*WHO ARE CITIZEN START*//*WHO ARE CITIZEN START*/
+
+/*WHO ARE MAFIA-dan goturulub*/
+/*WHO ARE MAFIA-dan goturulub*/
+/*WHO ARE MAFIA-dan goturulub*/
+/*WHO ARE MAFIA-dan goturulub*/
+
+/*WHO ARE CITIZEN FINISH*//*WHO ARE CITIZEN FINISH*//*WHO ARE CITIZEN FINISH*//*WHO ARE CITIZEN FINISH*//*WHO ARE CITIZEN FINISH*/
+
+
+
+
+
+		/*POP UP CARD FINISH*//*POP UP CARD FINISH*//*POP UP CARD FINISH*/
+
+
+
+
+
+
+
+				/*DAYTIME PAGE FINISH*//*DAYTIME PAGE FINISH*//*DAYTIME PAGE FINISH*/
+
+
+
+
+
+
+
+/*NIGHTTIME PAGE START*//*NIGHTTIME PAGE START*//*NIGHTTIME PAGE START*//*NIGHTTIME PAGE START*/
+
+
+/*DAYTIME PAGE-den goturulub*/
+/*DAYTIME PAGE-den goturulub*/
+/*DAYTIME PAGE-den goturulub*/
+/*DAYTIME PAGE-den goturulub*/
+/*DAYTIME PAGE-den goturulub*/
+/*DAYTIME PAGE-den goturulub*/
+/*DAYTIME PAGE-den goturulub*/
+/*DAYTIME PAGE-den goturulub*/
+
+
+/*NIGHTTIME PAGE FINISH *//*NIGHTTIME PAGE FINISH *//*NIGHTTIME PAGE FINISH *//*NIGHTTIME PAGE FINISH */
